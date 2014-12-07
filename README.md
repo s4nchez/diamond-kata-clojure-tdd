@@ -1,14 +1,26 @@
-# diamond
+# Diamond Kata 
 
-A Clojure library designed to ... well, that part is up to you.
+My implementation of the diamond kata using TDD and Clojure.
 
 ## Usage
 
-FIXME
+Running:
 
-## License
+```clojure
+(print-diamond "F")
+```
 
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Produces
+```
+-----A-----
+----B-B----
+---C---C---
+--D-----D--
+-E-------E-
+F---------F
+-E-------E-
+--D-----D--
+---C---C---
+----B-B----
+-----A-----
+```
